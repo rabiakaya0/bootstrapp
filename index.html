@@ -11,47 +11,80 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <main class="container mt-3">
-        <div class="row">
-            <section class="col-sm-8">
-                <article class="row mb-3"> <!--row sınıfı 12 lik sistemi bunun içerisinde yeniden açıyor-->
-                    <div class="col-sm-8">
-                        <h2>Lorem, ipsum dolor sit.</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quia enim, blanditiis culpa eveniet cupiditate facilis maxime atque ipsam dolore et error voluptate delectus dolor eligendi aperiam neque impedit minus?</p>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">BirSayfa</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Ana Sayfa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Ürünlerimiz</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Hakkımızda</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Paylaşımlar
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Görseller</a></li>
+                                    <li><a class="dropdown-item" href="#">Videolar</a></li>
+                                    <li><a class="dropdown-item" href="#">Metinler</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-sm-4">
-                        <img class="w-100 img-thumbnail" src="https://picsum.photos/id/15/400/300" alt="Article 1">
-                    </div>
-                </article>
-                <article class="row mb-3"> <!--row sınıfı 12 lik sistemi bunun içerisinde yeniden açıyor-->
-                    <div class="col-sm-8">
-                        <h2>Lorem, ipsum dolor sit.</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quia enim, blanditiis culpa eveniet cupiditate facilis maxime atque ipsam dolore et error voluptate delectus dolor eligendi aperiam neque impedit minus?</p>
-                    </div>
-                    <div class="col-sm-4">
-                        <img class="w-100 img-thumbnail" src="https://picsum.photos/id/23/400/300" alt="Article 1">
-                    </div>
-                </article>
-                <article class="row mb-3"> <!--row sınıfı 12 lik sistemi bunun içerisinde yeniden açıyor-->
-                    <div class="col-sm-8">
-                        <h2>Lorem, ipsum dolor sit.</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quia enim, blanditiis culpa eveniet cupiditate facilis maxime atque ipsam dolore et error voluptate delectus dolor eligendi aperiam neque impedit minus?</p>
-                    </div>
-                    <div class="col-sm-4">
-                        <img class="w-100 img-thumbnail" src="https://picsum.photos/id/7/400/300" alt="Article 1">
-                    </div>
-                </article>
-            </section>
-            <aside class="col-sm-4 bg-success">
-                <ul>
-                    <li>Lorem, ipsum.</li>
-                    <li>Ex, eligendi.</li>
-                    <li>Suscipit, deleniti?</li>
-                    <li>Repellat, consectetur.</li>
-                </ul>
-            </aside>
+                </div>
+            </nav>
         </div>
-    </main> <!-- container end -->
+        <main class="container">
+            <div class="row">
+                <section class="col-sm-8">
+                    <article class="row mb-3"> <!--row sınıfı 12 lik sistemi bunun içerisinde yeniden açıyor-->
+                        <div class="col-sm-8">
+                            <h2>Lorem, ipsum dolor sit.</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quia enim, blanditiis culpa eveniet cupiditate facilis maxime atque ipsam dolore et error voluptate delectus dolor eligendi aperiam neque impedit minus?</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <img class="w-100 img-thumbnail" src="https://picsum.photos/id/15/400/300" alt="Article 1">
+                        </div>
+                    </article>
+                    <article class="row mb-3"> <!--row sınıfı 12 lik sistemi bunun içerisinde yeniden açıyor-->
+                        <div class="col-sm-8">
+                            <h2>Lorem, ipsum dolor sit.</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quia enim, blanditiis culpa eveniet cupiditate facilis maxime atque ipsam dolore et error voluptate delectus dolor eligendi aperiam neque impedit minus?</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <img class="w-100 img-thumbnail" src="https://picsum.photos/id/23/400/300" alt="Article 1">
+                        </div>
+                    </article>
+                    <article class="row mb-3"> <!--row sınıfı 12 lik sistemi bunun içerisinde yeniden açıyor-->
+                        <div class="col-sm-8">
+                            <h2>Lorem, ipsum dolor sit.</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quia enim, blanditiis culpa eveniet cupiditate facilis maxime atque ipsam dolore et error voluptate delectus dolor eligendi aperiam neque impedit minus?</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <img class="w-100 img-thumbnail" src="https://picsum.photos/id/7/400/300" alt="Article 1">
+                        </div>
+                    </article>
+                </section>
+                <aside class="col-sm-4 bg-success">
+                    <ul>
+                        <li>Lorem, ipsum.</li>
+                        <li>Ex, eligendi.</li>
+                        <li>Suscipit, deleniti?</li>
+                        <li>Repellat, consectetur.</li>
+                    </ul>
+                </aside>
+            </div>
+        </main> <!-- container end -->
 
     <!-- ders 2 -->
     <!-- <div class="container">
